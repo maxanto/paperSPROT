@@ -1,0 +1,29 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: SPROTversion2.aux
+The style file: unsrt.bst
+Database file #1: xbibwebjulio2014_ingles.bib
+I was expecting a `,' or a `}'---line 35 of file xbibwebjulio2014_ingles.bib
+ : 
+ : @ARTICLE{Powell1979,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 51 of file xbibwebjulio2014_ingles.bib
+ : 
+ : @ARTICLE{Rosso2009c,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 68 of file xbibwebjulio2014_ingles.bib
+ : 
+ : @ARTICLE{Ding2007,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 759 of file xbibwebjulio2014_ingles.bib
+ :   @article{Kantz1994
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1485 of file xbibwebjulio2014_ingles.bib
+ : @article{Mischaikow1999
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Powell2979"
+Warning--empty year in Mischaikow1999
+(There were 5 error messages)

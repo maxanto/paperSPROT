@@ -1,0 +1,97 @@
+Start at Tuesday, August 19, 2014    10:08:13
+=========================================
+
+Registration Info : 636M-3X3T-2M30-3T73-5H76-6F57
+Unique Info : 40EA0AFB00000005-14067E5D
+
+Windows Version:
+Win7 _x64
+Module Info:
+Company: fCoder Group, Inc.
+Product Name: ImageConverter Plus
+Product Version: 8.0.150.130303
+
+CPU Info:
+Mode: x32 bit
+Vendor: GenuineIntel
+Vendor ID: Intel Corporation
+Extended Processor Name: Pentium® III (0.25 µm)
+Procesor Clock Frequecy: 2499
+Logical processors per physical: 4
+Stepping code: 7
+MMX support: yes
+MMX+ support: no
+SSE support: yes
+SSE2 support: yes
+3DNow suppor: no
+3DNow+ suppor: no
+AI64 support: no
+Hyperthreading support: no
+L1 cache size: -1
+L2 cache size: -1
+L3 cache size: -1
+
+Monitor info:
+Color depth: 32 Bits per pixel.
+Pixel Width: 1280
+Pixel Height: 1024
+Refresh frequency: 60 Hz
+
+Internet Explorer Version: 6.1
+Build Number: 7601
+
+Printers list: 
+PDF995
+Microsoft XPS Document Writer
+Foxit Reader PDF Printer
+Fax
+Enviar a OneNote 2010
+\\DANIEL-Z\HP LaserJet P1006
+
+Default printer: 
+\\DANIEL-Z\HP LaserJet P1006
+
+
+Profile settings:
+
+Operations:
+
+Format properties:
+    Extension: eps
+    bits per pixel : 24
+    create thumbnail : No
+
+Save properties:
+    Destination path: C:\Users\luciana\Dropbox\prng (1)\sprott2013\paperCNSNS
+    convert with subfolders : yes
+    restore subfolder structure in target folder : yes
+    open target folder after conversion : yes
+    create log file in target folder : yes
+
+Target file name properties:
+    Name template: {Title}.{Type}
+    what to do, if file exists : auto_rename
+    delete source images : no
+
+Processing files...
+
+=====================================================================
+
+File 1 of 1
+
+RAM free    :    1018.0 of    4093.6 Mb
+Virtual free:    1797.5 of    2047.9 Mb
+Target free disk space :   31482.8 of  100971.0 Mb
+Temp free disk space   :   31482.8 of  100971.0 Mb
+
+Src info : C:\Users\luciana\Dropbox\prng (1)\sprott2013\HBPvsHhist.jpg
+jpg, 1281x843px, 24bpp, 1 page(s), 96.000000x96.000000 dpi, 48653 bytes
+Load all pages :  ok
+
+Save :  ok
+
+Dest info : C:\Users\luciana\Dropbox\prng (1)\sprott2013\paperCNSNS\HBPvsHhist.eps
+eps, 1281x843px, 0bpp, 1 page(s), 6481518 bytes
+
+Complete at Tuesday, August 19, 2014    10:08:14
+=========================================

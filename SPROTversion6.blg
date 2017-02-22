@@ -1,0 +1,30 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: SPROTversion6.aux
+The style file: unsrt.bst
+Database file #1: xbibwebjulio2014_ingles.bib
+I was expecting a `,' or a `}'---line 98 of file xbibwebjulio2014_ingles.bib
+ : 
+ : @ARTICLE{Powell1979,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 114 of file xbibwebjulio2014_ingles.bib
+ : 
+ : @ARTICLE{Rosso2009c,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 131 of file xbibwebjulio2014_ingles.bib
+ : 
+ : @ARTICLE{Keller2005,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1532 of file xbibwebjulio2014_ingles.bib
+ : @article{Mischaikow1999
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1547 of file xbibwebjulio2014_ingles.bib
+ : @article{Powell1979
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--can't use both author and editor fields in Ahmad2013
+Warning--empty year in Mischaikow1999
+Warning--empty year in Powell1979
+(There were 5 error messages)
