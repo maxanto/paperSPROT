@@ -1,0 +1,96 @@
+\section{Introduction} \label{sec:intro}
+
+% ==================================================
+% resumen
+%% LO QUE VAMOS A CONTAR EN ESTE PAPER ES LO SIGUIENTE:
+%primero mostramos algunos atractores en flotante
+%para uno de esos a tractores mostramos los dominios de atraccin
+%
+%segundo contamos como estudiamos la degradacin de los dominios de atraccion.
+%tercero contamos como estudiamos la degradacin de las variables de estado del sistema, es decir de la serie temporal generada por el sistema
+%cuarto contamos como implementamos
+%mostramos los resultados concretos obtenidos para la degradacin de los dominios de atraccin y para la degradacin de las variables de estado
+% ==================================================
+%
+
+Chaotic systems have an increasing number of applications and their implementation is specially involved due to the \textsl{extreme sensitivity to initial conditions} that present. In general, 
+these systems are used for the generation of controlled noises, these digital pseudo-random noise generators (PRNGs) 
+can be employed in a large number of electronic applications, such as encryption sequences for privacy, multiplexing techniques, 
+electromagnetic compatibility and so on \cite{DeMicco2007A,DeMicco2007C,DeMicco2007B}. In computers and digital devices only \textsl{pseudo chaotic} attractors may be generated. But discretization may even destroy the \textsl{pseudo chaotic} behavior and consequently is a non trivial process. 
+
+Among many chaotic systems available in the literature, we are interested in a family of $2D$-maps \cite{Sprott1993} proposed by Sprott,  and modelled by a pair of coupled quadratic equations:
+%
+\begin{equation}\label{eq:mapaSprott}
+ \left\{\begin{aligned}
+        x_{n+1}&=a_1~+~a_2~ x_n~+~a_3 ~x_n^2~+~a_4 ~x_n~ y_n~+~a_5 ~y_n~+~a_6~ y_n^2\\
+        y_{n+1}&=a_7~+~a_8~ x_n~+~a_9 ~x_n^2~+~a_{10} ~x_n~ y_n~+~a_{11} ~y_n~+~a_{12}~ y_n^2
+       \end{aligned}
+ \right.
+\end{equation}
+%
+where $\{x,y\}$ are the state variables and $\{a_i, i=1,\dots,12\}$
+are the parameters. The reasons to study this particular system are two-fold: 
+
+\begin{enumerate}
+\item using floating-point arithmetic Sprott saw
+that by automatic swept of parameters $a_i$ a huge number of
+points in the parameter's space (about $6  .  10^{16}$) having
+a chaotic permanent regime may be detected. He also
+found a correlation between the correlation dimension and the
+Lyapunov exponents of these chaotic attractors, with their
+\textsl{visual appeal}, an interesting issue for automatic
+\textsl{art} generation
+\item it is possible to generate a novel encryption system because
+they present multiple chaotic attractors depending on the selected
+point in the parameter's space, either by replacing the S-box in AES \cite{Ahmad2013,Hussain2013}, or even by developing new encryption algorithms.
+\end{enumerate}
+
+Digital hardware implementation of dynamical systems, requires the use of
+a finite number of bits to represent the state variables. Only rational numbers may be represented in a computer, in spite of the arithmetics used (fixed-point or floating-point arithmetics). From an engineering point of view, fixed-point arithmetic is more efficient than floating-point because it uses less resources, and each operation requires a lower number of clock cycles. As a consequence, power consumption is also diminished using fixed-point arithmetic. Floating-point architecture, on the other hand,  allows one to \textsl{recreate} the ideal system's trajectories in $\mathbb{R}^n$.
+
+Only results for the analytical representation of the
+maps in Eq. \ref{eq:mapaSprott} have been published in the open literature. The objective of
+this paper is to extend the analysis to the digital version, to make
+possible  the hardware implementation in fixed-point arithmetic.
+
+Several strategies have been proposed in the literature for a correct
+selection of the optimal number of bits in hardware
+implementations. However, most of these procedures are limited to linear systems
+\cite{Constantinides2002,Constantinides2003}. In digital
+chaotic systems, a completely different behavior may be obtained by
+varying the precision.  This issue  has gained interest recently,
+and several new schemes have been proposed
+\cite{Ding2007,Asseri2002,Azzaz2009}.
+
+Grebogi's work \cite{Grebogi1988} showed that the average
+length $T$  of periodic orbits of a dynamical system implemented in a computer, scales as a
+function of the computer precision $\xi$  and the correlation dimension
+ of the chaotic attractor, as $T \sim  \xi^{-d/2}$. In
+\cite{SHUJUN2005} some findings on a new series of dynamical
+indicators, which can quantitatively reflect the degradation
+effects on a digital chaotic map realized with a fixed-point
+finite precision have been reported, but they are restricted to $1D$
+piecewise linear chaotic maps (PWLCM). In \cite{Dias2011} the effect of numerical precision on the mean
+distance and on the mean coalescence time between trajectories of deterministic maps with either multiplicative noise parameter or with an additive noise term was investigated.
+
+In this work we developed a detailed analysis of the
+\textsl{degradation} of the multiatractor chaotic system modelled
+by Eqs. \ref{eq:mapaSprott} as a fixed-point implementation is used. By
+\textsl{degradation} we mean:  (a) the appearance of stable iced
+points and stable periodic orbits with short periods, inside a
+floating-point domain of attraction without stable orbits; (b) the
+attractor itself becomes periodic and its statistical
+characteristics change, making the system more deterministic. The main contributions of this paper are: 
+\begin{itemize}
+\item the analysis of the domains of
+attraction of the chaotic attractors for a given set of parameters
+as the number of bits (that encode the fractional part of the number)
+increases; the appearance of stable fixed points and periodic
+orbits with short periods are specially considered;
+\item the  determination of the consequent \textsl{threshold width} for the bus, in order to make the  statistical
+ properties of the digital implementation close to those of the floating-point implementation; 
+\item  two different probability distribution functions (PDF) are assigned  to evaluate the stochasticity of the time series for different bus widths. Each PDF  $P$ is measured by the respective normalized Shannon entropy $H(P)$. These entropies have abrupt changes at specific bus widths. Period's lengths and \textsl{MLE} are also evaluated and results are compared with $H$s.
+\end{itemize}
+This work is organized as follows: first, section \ref{sec:estudio} comments some preliminary concepts and a few remarks on the problem that concern us. Section \ref{sec:chaos} gives a
+brief description of the chaotic maps analyzed. Section \ref{sec:quanti} describes the quantifiers and the method used to study the degradation of the attractors. Section \ref{sec:repre} describes our proposed method in detail and emulate fixed-point representation. Then we give experimental results
+in Section \ref{sec:results}. Finally, the conclusions are given in section \ref{sec:conclusions}.

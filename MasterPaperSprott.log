@@ -1,0 +1,764 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.31)  24 FEB 2017 13:51
+entering extended mode
+**./MasterPaperSprott.tex
+(MasterPaperSprott.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 70 language(s) loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\elsarticle\elsarticle.cls"
+Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
+\@bls=\dimen102
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\c@tnote=\count88
+\c@fnote=\count89
+\c@cnote=\count90
+\c@ead=\count91
+\c@author=\count92
+\@eadauthor=\toks15
+\c@affn=\count93
+\absbox=\box26
+\keybox=\box27
+\Columnwidth=\dimen106
+\space@left=\dimen107
+\els@boxa=\box28
+\els@boxb=\box29
+\leftMargin=\dimen108
+\@enLab=\toks16
+\@sep=\skip43
+\@@sep=\skip44
+
+(MasterPaperSprott.spl)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+\splwrite=\write3
+\openout3 = `MasterPaperSprott.spl'.
+
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lineno\lineno.sty"
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count95
+\output=\toks17
+\linenoprevgraf=\count96
+\linenumbersep=\dimen109
+\linenumberwidth=\dimen110
+\c@linenumber=\count97
+\c@pagewiselinenumber=\count98
+\c@LN@truepage=\count99
+\c@internallinenumber=\count100
+\c@internallinenumbers=\count101
+\quotelinenumbersep=\dimen111
+\bframerule=\dimen112
+\bframesep=\dimen113
+\bframebox=\box30
+LaTeX Info: Redefining \\ on input line 3056.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen114
+\Hy@linkcounter=\count102
+\Hy@pagecounter=\count103
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count104
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count105
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen115
+\Fld@menulength=\count106
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count107
+\c@Item=\count108
+\c@Hfootnote=\count109
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count110
+\c@bookmark@seq@number=\count111
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip47
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks18
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen118
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen119
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count112
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count113
+\leftroot@=\count114
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count115
+\DOTSCASE@=\count116
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen120
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count117
+\c@MaxMatrixCols=\count118
+\dotsspace@=\muskip11
+\c@parentequation=\count119
+\dspbrk@lvl=\count120
+\tag@help=\toks21
+\row@=\count121
+\column@=\count122
+\maxfields@=\count123
+\andhelp@=\toks22
+\eqnshift@=\dimen121
+\alignsep@=\dimen122
+\tagshift@=\dimen123
+\tagwidth@=\dimen124
+\totwidth@=\dimen125
+\lineht@=\dimen126
+\@envbody=\toks23
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(MasterPaperSprott.aux
+
+LaTeX Warning: Label `tabla:MLE' multiply defined.
+
+)
+\openout1 = `MasterPaperSprott.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count124
+\scratchdimen=\dimen127
+\scratchbox=\box33
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen128
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks26
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+)
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring OFF on input line 14.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count130
+)
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
+
+(MasterPaperSprott.out) (MasterPaperSprott.out)
+\@outlinefile=\write4
+\openout4 = `MasterPaperSprott.out'.
+
+ (Frontmatter.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+(Introduction.tex [1
+
+
+{C:/Users/Maxi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 85.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+)
+(ProblemStatement.tex [3]) (ChaoticSystemUnderStudy.tex [4]
+<Images/atractoreslindos.pdf, id=144, 1281.78876pt x 869.2475pt>
+File: Images/atractoreslindos.pdf Graphic file (type pdf)
+
+<use Images/atractoreslindos.pdf>
+Package pdftex.def Info: Images/atractoreslindos.pdf used on input line 24.
+(pdftex.def)             Requested size: 345.0pt x 233.9572pt.
+
+<Images/Atractor3_condominio_ok.pdf, id=145, 907.39pt x 653.44125pt>
+File: Images/Atractor3_condominio_ok.pdf Graphic file (type pdf)
+
+<use Images/Atractor3_condominio_ok.pdf>
+Package pdftex.def Info: Images/Atractor3_condominio_ok.pdf used on input line 
+32.
+(pdftex.def)             Requested size: 172.5pt x 124.21495pt.
+
+<Images/Atractor5_condominio_ok.pdf, id=146, 907.39pt x 653.44125pt>
+File: Images/Atractor5_condominio_ok.pdf Graphic file (type pdf)
+
+<use Images/Atractor5_condominio_ok.pdf>
+Package pdftex.def Info: Images/Atractor5_condominio_ok.pdf used on input line 
+33.
+(pdftex.def)             Requested size: 172.5pt x 124.21495pt.
+
+<Images/Atractor9_condominio_ok.pdf, id=147, 907.39pt x 653.44125pt>
+File: Images/Atractor9_condominio_ok.pdf Graphic file (type pdf)
+
+<use Images/Atractor9_condominio_ok.pdf>
+Package pdftex.def Info: Images/Atractor9_condominio_ok.pdf used on input line 
+34.
+(pdftex.def)             Requested size: 172.5pt x 124.21495pt.
+
+<Images/Atractor2_condominio_ok.pdf, id=148, 907.39pt x 653.44125pt>
+File: Images/Atractor2_condominio_ok.pdf Graphic file (type pdf)
+
+<use Images/Atractor2_condominio_ok.pdf>
+Package pdftex.def Info: Images/Atractor2_condominio_ok.pdf used on input line 
+35.
+(pdftex.def)             Requested size: 172.5pt x 124.21495pt.
+
+Overfull \hbox (15.33333pt too wide) in paragraph at lines 31--38
+[][] 
+ []
+
+) (AnalysisTools.tex [5 <./Images/atractoreslindos.pdf>] [6 <./Images/Atractor3
+_condominio_ok.pdf> <./Images/Atractor5_condominio_ok.pdf> <./Images/Atractor9_
+condominio_ok.pdf> <./Images/Atractor2_condominio_ok.pdf>] [7] [8] [9])
+(HardwareDigitalSimulation.tex [10] [11]) (Results.tex
+<Images/m5_lu.pdf, id=267, 903.375pt x 677.53125pt>
+File: Images/m5_lu.pdf Graphic file (type pdf)
+ <use Images/m5_lu.pdf>
+Package pdftex.def Info: Images/m5_lu.pdf used on input line 10.
+(pdftex.def)             Requested size: 103.50105pt x 77.61981pt.
+
+<Images/m6_lu.pdf, id=268, 903.375pt x 677.53125pt>
+File: Images/m6_lu.pdf Graphic file (type pdf)
+ <use Images/m6_lu.pdf>
+Package pdftex.def Info: Images/m6_lu.pdf used on input line 11.
+(pdftex.def)             Requested size: 103.50105pt x 77.61981pt.
+
+<Images/m7_lu.pdf, id=269, 903.375pt x 677.53125pt>
+File: Images/m7_lu.pdf Graphic file (type pdf)
+ <use Images/m7_lu.pdf>
+Package pdftex.def Info: Images/m7_lu.pdf used on input line 12.
+(pdftex.def)             Requested size: 103.50105pt x 77.61981pt.
+
+<Images/m8_lu.pdf, id=270, 903.375pt x 677.53125pt>
+File: Images/m8_lu.pdf Graphic file (type pdf)
+ <use Images/m8_lu.pdf>
+Package pdftex.def Info: Images/m8_lu.pdf used on input line 13.
+(pdftex.def)             Requested size: 103.50105pt x 77.61981pt.
+
+<Images/m9_lu.pdf, id=271, 903.375pt x 677.53125pt>
+File: Images/m9_lu.pdf Graphic file (type pdf)
+ <use Images/m9_lu.pdf>
+Package pdftex.def Info: Images/m9_lu.pdf used on input line 14.
+(pdftex.def)             Requested size: 103.50105pt x 77.61981pt.
+
+<Images/m10_lu.pdf, id=272, 903.375pt x 677.53125pt>
+File: Images/m10_lu.pdf Graphic file (type pdf)
+ <use Images/m10_lu.pdf>
+Package pdftex.def Info: Images/m10_lu.pdf used on input line 15.
+(pdftex.def)             Requested size: 103.50105pt x 77.61981pt.
+
+<Images/m11_lu.pdf, id=273, 903.375pt x 677.53125pt>
+File: Images/m11_lu.pdf Graphic file (type pdf)
+ <use Images/m11_lu.pdf>
+Package pdftex.def Info: Images/m11_lu.pdf used on input line 16.
+(pdftex.def)             Requested size: 103.50105pt x 77.61981pt.
+
+<Images/m12_lu.pdf, id=274, 903.375pt x 677.53125pt>
+File: Images/m12_lu.pdf Graphic file (type pdf)
+ <use Images/m12_lu.pdf>
+Package pdftex.def Info: Images/m12_lu.pdf used on input line 17.
+(pdftex.def)             Requested size: 103.50105pt x 77.61981pt.
+
+<Images/m13_lu.pdf, id=275, 903.375pt x 677.53125pt>
+File: Images/m13_lu.pdf Graphic file (type pdf)
+ <use Images/m13_lu.pdf>
+Package pdftex.def Info: Images/m13_lu.pdf used on input line 18.
+(pdftex.def)             Requested size: 103.50105pt x 77.61981pt.
+
+<Images/m14_lu.pdf, id=276, 903.375pt x 677.53125pt>
+File: Images/m14_lu.pdf Graphic file (type pdf)
+ <use Images/m14_lu.pdf>
+Package pdftex.def Info: Images/m14_lu.pdf used on input line 19.
+(pdftex.def)             Requested size: 103.50105pt x 77.61981pt.
+
+<Images/m17_lu.pdf, id=277, 903.375pt x 677.53125pt>
+File: Images/m17_lu.pdf Graphic file (type pdf)
+ <use Images/m17_lu.pdf>
+Package pdftex.def Info: Images/m17_lu.pdf used on input line 20.
+(pdftex.def)             Requested size: 103.50105pt x 77.61981pt.
+
+<Images/m18_lu.pdf, id=278, 903.375pt x 677.53125pt>
+File: Images/m18_lu.pdf Graphic file (type pdf)
+ <use Images/m18_lu.pdf>
+Package pdftex.def Info: Images/m18_lu.pdf used on input line 21.
+(pdftex.def)             Requested size: 103.50105pt x 77.61981pt.
+
+[12] [13 <./Images/m5_lu.pdf> <./Images/m6_lu.pdf> <./Images/m7_lu.pdf> <./Imag
+es/m8_lu.pdf> <./Images/m9_lu.pdf> <./Images/m10_lu.pdf> <./Images/m11_lu.pdf> 
+<./Images/m12_lu.pdf> <./Images/m13_lu.pdf> <./Images/m14_lu.pdf> <./Images/m17
+_lu.pdf> <./Images/m18_lu.pdf>]
+<Images/m_zoom.pdf, id=347, 903.375pt x 677.53125pt>
+File: Images/m_zoom.pdf Graphic file (type pdf)
+ <use Images/m_zoom.pdf>
+Package pdftex.def Info: Images/m_zoom.pdf used on input line 40.
+(pdftex.def)             Requested size: 165.59853pt x 124.19376pt.
+
+<Images/m14_lu_zoom.pdf, id=348, 903.375pt x 677.53125pt>
+File: Images/m14_lu_zoom.pdf Graphic file (type pdf)
+
+<use Images/m14_lu_zoom.pdf>
+Package pdftex.def Info: Images/m14_lu_zoom.pdf used on input line 41.
+(pdftex.def)             Requested size: 165.59853pt x 124.19376pt.
+
+<Images/m17_lu_zoom.pdf, id=349, 903.375pt x 677.53125pt>
+File: Images/m17_lu_zoom.pdf Graphic file (type pdf)
+
+<use Images/m17_lu_zoom.pdf>
+Package pdftex.def Info: Images/m17_lu_zoom.pdf used on input line 42.
+(pdftex.def)             Requested size: 165.59853pt x 124.19376pt.
+
+<Images/m18_lu_zoom.pdf, id=350, 903.375pt x 677.53125pt>
+File: Images/m18_lu_zoom.pdf Graphic file (type pdf)
+
+<use Images/m18_lu_zoom.pdf>
+Package pdftex.def Info: Images/m18_lu_zoom.pdf used on input line 43.
+(pdftex.def)             Requested size: 165.59853pt x 124.19376pt.
+
+Overfull \hbox (1.53038pt too wide) in paragraph at lines 39--46
+[][] 
+ []
+
+<Images/m5.pdf, id=352, 902.37125pt x 677.53125pt>
+File: Images/m5.pdf Graphic file (type pdf)
+ <use Images/m5.pdf>
+Package pdftex.def Info: Images/m5.pdf used on input line 57.
+(pdftex.def)             Requested size: 103.50105pt x 77.70251pt.
+
+<Images/m6.pdf, id=353, 902.37125pt x 677.53125pt>
+File: Images/m6.pdf Graphic file (type pdf)
+ <use Images/m6.pdf>
+Package pdftex.def Info: Images/m6.pdf used on input line 58.
+(pdftex.def)             Requested size: 103.50105pt x 77.70251pt.
+
+<Images/m7.pdf, id=354, 902.37125pt x 677.53125pt>
+File: Images/m7.pdf Graphic file (type pdf)
+ <use Images/m7.pdf>
+Package pdftex.def Info: Images/m7.pdf used on input line 59.
+(pdftex.def)             Requested size: 103.50105pt x 77.70251pt.
+
+<Images/m8.pdf, id=355, 902.37125pt x 677.53125pt>
+File: Images/m8.pdf Graphic file (type pdf)
+ <use Images/m8.pdf>
+Package pdftex.def Info: Images/m8.pdf used on input line 60.
+(pdftex.def)             Requested size: 103.50105pt x 77.70251pt.
+
+<Images/m9.pdf, id=356, 902.37125pt x 677.53125pt>
+File: Images/m9.pdf Graphic file (type pdf)
+ <use Images/m9.pdf>
+Package pdftex.def Info: Images/m9.pdf used on input line 61.
+(pdftex.def)             Requested size: 103.50105pt x 77.70251pt.
+
+<Images/m10.pdf, id=357, 902.37125pt x 677.53125pt>
+File: Images/m10.pdf Graphic file (type pdf)
+ <use Images/m10.pdf>
+Package pdftex.def Info: Images/m10.pdf used on input line 62.
+(pdftex.def)             Requested size: 103.50105pt x 77.70251pt.
+
+<Images/m11.pdf, id=358, 902.37125pt x 677.53125pt>
+File: Images/m11.pdf Graphic file (type pdf)
+ <use Images/m11.pdf>
+Package pdftex.def Info: Images/m11.pdf used on input line 63.
+(pdftex.def)             Requested size: 103.50105pt x 77.70251pt.
+
+<Images/m12.pdf, id=359, 902.37125pt x 677.53125pt>
+File: Images/m12.pdf Graphic file (type pdf)
+ <use Images/m12.pdf>
+Package pdftex.def Info: Images/m12.pdf used on input line 64.
+(pdftex.def)             Requested size: 103.50105pt x 77.70251pt.
+
+<Images/m13.pdf, id=360, 902.37125pt x 677.53125pt>
+File: Images/m13.pdf Graphic file (type pdf)
+ <use Images/m13.pdf>
+Package pdftex.def Info: Images/m13.pdf used on input line 65.
+(pdftex.def)             Requested size: 103.50105pt x 77.70251pt.
+
+<Images/m14.pdf, id=361, 902.37125pt x 677.53125pt>
+File: Images/m14.pdf Graphic file (type pdf)
+ <use Images/m14.pdf>
+Package pdftex.def Info: Images/m14.pdf used on input line 66.
+(pdftex.def)             Requested size: 103.50105pt x 77.70251pt.
+
+<Images/m17.pdf, id=362, 902.37125pt x 677.53125pt>
+File: Images/m17.pdf Graphic file (type pdf)
+ <use Images/m17.pdf>
+Package pdftex.def Info: Images/m17.pdf used on input line 67.
+(pdftex.def)             Requested size: 103.50105pt x 77.70251pt.
+
+<Images/m18.pdf, id=363, 902.37125pt x 677.53125pt>
+File: Images/m18.pdf Graphic file (type pdf)
+ <use Images/m18.pdf>
+Package pdftex.def Info: Images/m18.pdf used on input line 68.
+(pdftex.def)             Requested size: 103.50105pt x 77.70251pt.
+
+<Images/ColorMapConEje.pdf, id=364, 1452.42625pt x 222.8325pt>
+File: Images/ColorMapConEje.pdf Graphic file (type pdf)
+
+<use Images/ColorMapConEje.pdf>
+Package pdftex.def Info: Images/ColorMapConEje.pdf used on input line 70.
+(pdftex.def)             Requested size: 345.0pt x 52.93007pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 56--72
+ [][] 
+ []
+
+[14 <./Images/m_zoom.pdf> <./Images/m14_lu_zoom.pdf> <./Images/m17_lu_zoom.pdf>
+ <./Images/m18_lu_zoom.pdf>] [15 <./Images/m5.pdf> <./Images/m6.pdf> <./Images/
+m7.pdf> <./Images/m8.pdf> <./Images/m9.pdf> <./Images/m10.pdf> <./Images/m11.pd
+f> <./Images/m12.pdf> <./Images/m13.pdf> <./Images/m14.pdf> <./Images/m17.pdf> 
+<./Images/m18.pdf> <./Images/ColorMapConEje.pdf>]
+Overfull \hbox (33.2334pt too wide) in paragraph at lines 92--118
+ [][] 
+ []
+
+[16] <Images/ptosfijos.pdf, id=601, 907.39pt x 637.38126pt>
+File: Images/ptosfijos.pdf Graphic file (type pdf)
+
+<use Images/ptosfijos.pdf>
+Package pdftex.def Info: Images/ptosfijos.pdf used on input line 144.
+(pdftex.def)             Requested size: 165.59853pt x 116.31868pt.
+
+<Images/divergen.pdf, id=602, 907.39pt x 637.38126pt>
+File: Images/divergen.pdf Graphic file (type pdf)
+
+<use Images/divergen.pdf>
+Package pdftex.def Info: Images/divergen.pdf used on input line 145.
+(pdftex.def)             Requested size: 165.59853pt x 116.31868pt.
+
+<Images/Periodos_prom.pdf, id=603, 907.39pt x 637.38126pt>
+File: Images/Periodos_prom.pdf Graphic file (type pdf)
+
+<use Images/Periodos_prom.pdf>
+Package pdftex.def Info: Images/Periodos_prom.pdf used on input line 146.
+(pdftex.def)             Requested size: 165.59853pt x 116.31868pt.
+
+<Images/Puntos.pdf, id=604, 907.39pt x 637.38126pt>
+File: Images/Puntos.pdf Graphic file (type pdf)
+ <use Images/Puntos.pdf>
+Package pdftex.def Info: Images/Puntos.pdf used on input line 147.
+(pdftex.def)             Requested size: 165.59853pt x 116.31868pt.
+
+Overfull \hbox (1.53038pt too wide) in paragraph at lines 143--150
+[][] 
+ []
+
+<Images/HBPvsHhist.pdf, id=605, 907.39pt x 637.38126pt>
+File: Images/HBPvsHhist.pdf Graphic file (type pdf)
+
+<use Images/HBPvsHhist.pdf>
+Package pdftex.def Info: Images/HBPvsHhist.pdf used on input line 157.
+(pdftex.def)             Requested size: 241.49895pt x 169.63464pt.
+
+<Images/HBPHhist.jpg, id=606, 1285.80376pt x 868.24374pt>
+File: Images/HBPHhist.jpg Graphic file (type jpg)
+
+<use Images/HBPHhist.jpg>
+Package pdftex.def Info: Images/HBPHhist.jpg used on input line 164.
+(pdftex.def)             Requested size: 241.49895pt x 163.07352pt.
+) (Conclusions.tex) [17 <./Images/ptosfijos.pdf> <./Images/divergen.pdf> <./Ima
+ges/Periodos_prom.pdf> <./Images/Puntos.pdf>] [18 <./Images/HBPvsHhist.pdf> <./
+Images/HBPHhist.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
+
+ []
+
+(MasterPaperSprott.bbl
+Missing character: There is no ó in font cmr10!
+Missing character: There is no ó in font cmr10!
+Missing character: There is no ñ in font cmr10!
+Missing character: There is no ó in font cmti10!
+Missing character: There is no ó in font cmti10!
+ [19]
+Underfull \hbox (badness 1648) in paragraph at lines 46--50
+[]\OT1/cmr/m/n/10 George A. Con-stan-tinides, Pe-ter Y. K. Che-ung, and Wayne L
+uk.
+ []
+
+[20]
+Missing character: There is no Ð in font cmr10!
+Missing character: There is no Ð in font cmr10!
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
+ [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
+ (MasterPaperSprott.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
+Package rerunfilecheck Info: File `MasterPaperSprott.out' has not changed.
+(rerunfilecheck)             Checksum: E2FEBFE49E986ABD9438E928566ABBB0;844.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
+ ) 
+Here is how much of TeX's memory you used:
+ 7205 strings out of 493622
+ 103422 string characters out of 3141217
+ 190975 words of memory out of 3000000
+ 10343 multiletter control sequences out of 15000+200000
+ 14951 words of font info for 58 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 34i,12n,30p,958b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsl10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsl8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+ti7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb>
+Output written on MasterPaperSprott.pdf (21 pages, 44237730 bytes).
+PDF statistics:
+ 792 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
+ 305 words of extra memory for PDF output out of 10000 (max. 10000000)
+

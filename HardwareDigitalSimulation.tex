@@ -1,0 +1,101 @@
+\section{Hardware Digital Simulation.} \label{sec:repre}
+%\section{Degradation of the domains of attraction for fixed point arithmetics}
+
+Within the available options for representing values using finite precision, floating-point arithmetic is the closest to $\mathbb{R}$. However, from the engineering point of view the usage of floating-point is not efficient when compared to fixed-point operations because the first ones consume lot of system resources and require several clock cycles. It is widely known that when the maximal values to be represented and the precision required are pre-established fixed-point arithmetic would allow getting better results in terms of velocity, usage resources and power consumption.
+
+The analysis in this paper was intended to cover any digital electronic device such as FPGA, CPLD (Complex Programmable Logic Device) or ASIC (Application Specific Integrated Circuit). On this kind of devices, saving resources is a crucial issue, this is why they mostly employ fixed-point arithmetic. 
+
+A C code that simulates iterating a nonlinear system, the quadratic map, in any of such devices was developed in order to generate sequences which were then analyzed.
+The code is totally parametrizable and it allows to access intermediate values.
+A technique that emulates operating in fixed-point arithmetic was employed, the general idea is to use signed integer arithmetic, although chaotic systems work with fractional numbers. To solve this, an equivalence
+between fractional fixed-point numbers and signed integers was employed here.
+
+Of course, internally all digital device works with binary numbers, designers interpret these bits based on the architecture they want to work with. 
+Binary numbers can be interpreted as integer numbers or, as in this case, they can be thought in terms of a fractional point located at a certain position. To illustrate this:
+
+\begin{equation}\label{eq:eqdecimal}
+Fractional\_fixed\_point=-b_{n_i-1}.2^{(n_i-1)} \dots b_0.2^0,b_{-1}.2^{-1} \dots b_{-n_f}2^{-n_f}
+\end{equation}
+
+where we called $n_i$ to the number of bits used to represent the integer part and $n_f$ the fractional, the whole number of bits is $n=n_i+n_f$.
+
+In order to make this conversion, each fractional number must be
+multiplied by $2^{n_f}$ to obtain its equivalent Signed Integer
+number. Where $n_f$ is the quantity of bits used to represent the
+fractional part of the number. This is equivalent to right-shift $n_f$
+positions the fractional point. Resulting in:
+
+\begin{equation}\label{eq:eqentero}
+Signed\_integer= -b_{n_i-1+n_f}.2^{(n_i-1+n_f)} \dots b_0.2^0
+\end{equation}
+
+An example of the equivalence is shown in Table \ref{tab:tabla}. This Table shows the equivalence when
+using $n=6$ bits, $2$ bits for the integer part and $4$ bits
+for the fractional part ($n_i=2$ and  $n_f=4$).
+The following considerations must be taken into account when operating with this equivalence:
+
+\begin{itemize}
+    \item Addition, this operation does not need any consideration just to make sure not to exceed the limits of the arithmetic used.
+    \item Multiplication, the result of this operation must be divided by $2^{n_f}$ to adjust the result to the correct range.
+    \item Division, the result must always be rounded towards minus infinity. This is, $7.28$ to $7$ , $-14.9$ to $-15$.
+\end{itemize}
+
+After each operation, the corresponding adjustment is performed to operate identically as digital devices work.
+
+For generating data, the system was intended to be working in fractional fixed-point
+architecture with $4$ bits for representing the integer
+part, $n_i=4$, in two's complement representation ($Ca_2$). The code automatically varies the
+number of bits representing the fractional part of the number, $n_f$,
+in order to analyze how the system reacts when the precision
+changes.
+
+
+\begin{table}[h]
+  \caption{Example of equivalences.}\label{tab:tabla}
+  \vspace{2mm}
+  \centering
+  \begin{tabular}{ c c c  }
+  \hline
+  Binary  & Fractional Fixed point & Signed Integer  \\
+  \hline
+   \hline
+  $01.1111$ & $1.9375$ & $31$ \\
+  $01.1110$ & $1.8750$ & $30$ \\
+  $01.1101$ & $1.8125$ & $29$ \\
+   \vdots & \vdots &  \vdots\\
+  $00.0000$ & $0.00$ & $0$  \\
+  $11.1111$ & $-0.0625$ & $-1$ \\
+  $11.1110$ & $-0.1250$ & $-2$  \\
+   \vdots & \vdots & \vdots \\
+    $10.0000$ &  $-2.00$ & $-32$  \\
+    \hline
+    \end{tabular}
+\end{table}
+
+The developed code iterates the $2D$-quadratic map $10^5$ times, in this case coefficients $a_0$ to $a_{11}$ have the values:\\
+$\{a_i\}=\{-1.0, 0.9, 0.4, -0.2, -0.6, -0.5, 0.4, 0.7, 0.3, -0.5, 0.7,-0.8\}$. 
+
+The map has been iterated with ICs $x_0$ and $y_0$, with $x_0$ and $y_0~\in~[-2,2]$. They have been swept in steps determined by the $n_f$ employed.
+For example, when using five bits to represent the fractional part of the number ($n_f=5$), the minimum value (minimum grid) that can be represented is $0.0063$. In the case of using six bits the resulting minimum value is $0.0026$, in general when using $n_f$ bits the resulting step\_grid will be:
+
+\begin{equation}
+step\_grid=\frac{1}{n_f.2^{n_f}}
+\end{equation}
+
+On each case it was determined whether the
+systems evolves to a fixed point, diverges or goes towards a
+periodic cycle.
+
+For every value of precision $n_f$ the code outputs a square matrix of order $4.n_f.2^{n_f}$ whose elements correspond to the final state of the system when initialized with each
+IC. This means each position will contain one of three values:
+\begin{itemize}
+\item $-1$, if it diverged,
+\item $0$, if it converged to a fixed point, 
+\item the length of the period, at which that IC converged.
+\end {itemize}
+
+An interesting thing about this program is that it is independent of where it runs, and of the arithmetic used by it (float, double, long double, etc.).
+
+For each detected cycle, with every $n_f$, a sequence of length $10^7$ was generated for calculating the randomness quantifiers previously introduced in section \ref{cu_ran}. 
+From the point of view of a PRNG implementation and specifically encryption, the desirable properties for the system will be to present large periods with good statistical properties, few fixed
+points of course, that do not diverge.
